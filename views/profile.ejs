@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+          body{background: skyblue; font-family: verdana; color: #fff; padding: 30px;}
+
+            h1{font-size: 48px; text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+            h2{font-size: 30px; text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+            p{font-size: 16px; text-align: center;}
+
+        </style>
+    </head>
+    <body>
+
+        <h1 class="title">Welcome to the profile of <%= person %></h1>
+        <p><strong> College: <%= data.college %></strong></p>
+        <p><strong> Stream: <%= data.stream %></strong></p>
+        <div class="app">
+        <!--  <div class="screenshot">image<img src="images/app.png" alt=This is a screenshot"></img>"</div>   -->
+                       <p>You can't find a website better than this!</p>
+                       <h2>Hobbies</h2>
+                       <% data.hobbies.forEach(function(item){   %>
+                         <ul>
+                           <li> <%= item %></li>
+                         </ul>
+                    <%   }); %>
+    </body>
+</html>

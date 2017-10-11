@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOCTOR</title>
+
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="./materialize.min.css"  media="screen,projection"/>
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body class = "doctor">
+	<style>
+
+	.topcard {
+		background: <%=weights.status%>;
+		color: white;
+	}
+
+	</style>
+	<div class="top">
+		<div class="title">
+			PATIENT REPORT
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="container">
+			<div class="cardform auto-fit topcard">
+
+				<div class="cardcol1 auto-fit">
+					<p><h4>BIPIN LALA</h4></p>
+					<h7>PATIENT STATUS</h7>
+				</div>
+
+				<div class="cardcol2 auto-fit">
+					<h4><%=status%></h4>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="diseases">
+			<div class="column1">
+				<div class="cardform auto-fit">
+
+					<div class="cardcol1 auto-fit">
+						<img src="./images/heart.png" width="120px">
+					</div>
+
+					<div class="cardcol2 auto-fit">
+						<p>HEART CONDITION</p>
+						<h2><%=weights.heartattack%>%</h2>
+					</div>
+
+				</div>
+				<br>
+				<div class="cardform auto-fit">
+					<div class="cardcol1 auto-fit">
+						<img src="images/heart.png" width="120px">
+					</div>
+
+					<div class="cardcol2 auto-fit">
+						<p>STROKE</p>
+						<h2><%=weights.stroke%>%</h2>
+					</div>
+
+				</div>
+				<br>
+				<div class="cardform auto-fit">
+					<div class="cardcol1 auto-fit">
+						<img src="images/heart.png" width="120px">
+					</div>
+
+					<div class="cardcol2 auto-fit">
+						<p>DIABETES</p>
+						<h2><%=weights.diabetes%>%</h2>
+					</div>
+
+				</div>
+				<br>
+
+
+				<div class="cardform auto-fit">
+					<div class="cardcol1 auto-fit">
+						<img src="images/heart.png" width="120px">
+					</div>
+
+					<div class="cardcol2 auto-fit">
+						<p>CARDIAC ARREST</p>
+						<h2><%=weights.cardiacarrest%>%</h2>
+					</div>
+
+				</div>
+				<br>
+
+
+				<div class="cardform auto-fit">
+					<div class="cardcol1 auto-fit">
+						<img src="images/heart.png" width="120px">
+					</div>
+
+					<div class="cardcol2 auto-fit">
+						<p>TUBERCULOSIS</p>
+						<h2><%=weights.tuberculosis%>%</h2>
+					</div>
+
+				</div>
+				<br>
+
+
+				<div class="cardform auto-fit">
+					<div class="cardcol1 auto-fit">
+						<img src="images/heart.png" width="120px">
+					</div>
+
+					<div class="cardcol2 auto-fit">
+						<p>PARKINSON'S</p>
+						<h2><%=weights.parkinson%>%</h2>
+					</div>
+
+				</div>
+				<br>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./materialize.min.js"></script>
+
+</body>
+</html>

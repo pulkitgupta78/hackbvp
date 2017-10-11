@@ -1,0 +1,1 @@
+{"status":"red", "heartattack" : "0", "stroke":"0", "diabetes":"0", "cardiacarrest":"0", "tuberculosis":"50", "parkinson":"60"}

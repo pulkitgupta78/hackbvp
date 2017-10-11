@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PATIENT</title>
+
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="./materialize.min.css"  media="screen,projection"/>
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body>
+
+	<div class="top">
+		<div class="title">ANSWER SOME QUESTIONS</div>
+	</div>
+
+	<div class="main">
+
+		<div class="container">
+
+			<form method="post" action="/health">
+
+				<div class="cardform">
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="q1" type="text" class="validate" name="q1">
+							<label class="active" for="first_name2">QUESTION 1</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="q2" type="text" class="validate" name="q2">
+							<label class="active" for="first_name2">QUESTION 2</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="q3" type="text" class="validate" name="q3">
+							<label class="active" for="first_name2">QUESTION 3</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="q4" type="text" class="validate" name="q4">
+							<label class="active" for="first_name2">QUESTION 4</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="q5" type="text" class="validate" name="q5">
+							<label class="active" for="first_name2">QUESTION 5</label>
+						</div>
+					</div>
+
+					<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+						<i class="material-icons right">send</i>
+					</button>
+
+
+				</div>
+
+
+
+			</form>
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./js/materialize.min.js"></script>
+</body>
+</html>
